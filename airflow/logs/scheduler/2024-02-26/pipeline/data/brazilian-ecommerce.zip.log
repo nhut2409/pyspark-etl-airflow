@@ -1,0 +1,550 @@
+[2024-02-26T14:08:24.029+0700] {processor.py:161} INFO - Started process (PID=73087) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:24.030+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:08:24.030+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:08:24.030+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:24.032+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:24.050+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T14:08:54.907+0700] {processor.py:161} INFO - Started process (PID=73898) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:54.908+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:08:54.908+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:08:54.908+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:54.909+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:08:54.926+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:09:25.761+0700] {processor.py:161} INFO - Started process (PID=74569) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:25.762+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:09:25.762+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:09:25.762+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:25.763+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:25.782+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T14:09:56.587+0700] {processor.py:161} INFO - Started process (PID=75035) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:56.588+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:09:56.588+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:09:56.588+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:56.589+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:09:56.606+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:10:27.376+0700] {processor.py:161} INFO - Started process (PID=75860) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:27.377+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:10:27.378+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:10:27.377+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:27.379+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:27.397+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T14:10:58.265+0700] {processor.py:161} INFO - Started process (PID=76577) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:58.266+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:10:58.266+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:10:58.266+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:58.267+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:10:58.284+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:11:29.270+0700] {processor.py:161} INFO - Started process (PID=76857) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:11:29.271+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:11:29.272+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:11:29.271+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:11:29.273+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:11:29.296+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.030 seconds
+[2024-02-26T14:12:00.197+0700] {processor.py:161} INFO - Started process (PID=77551) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:00.199+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:12:00.201+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:12:00.200+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:00.202+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:00.230+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.036 seconds
+[2024-02-26T14:12:31.061+0700] {processor.py:161} INFO - Started process (PID=78347) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:31.062+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:12:31.062+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:12:31.062+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:31.063+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:12:31.081+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T14:13:02.011+0700] {processor.py:161} INFO - Started process (PID=78622) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:02.013+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:13:02.013+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:13:02.013+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:02.014+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:02.037+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.029 seconds
+[2024-02-26T14:13:33.740+0700] {processor.py:161} INFO - Started process (PID=79677) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:33.741+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:13:33.742+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:13:33.742+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:33.743+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:13:33.763+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T14:14:04.595+0700] {processor.py:161} INFO - Started process (PID=80727) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:04.595+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:14:04.596+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:14:04.596+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:04.597+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:04.613+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T14:14:35.419+0700] {processor.py:161} INFO - Started process (PID=81707) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:35.420+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:14:35.420+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:14:35.420+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:35.421+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:14:35.438+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:15:06.266+0700] {processor.py:161} INFO - Started process (PID=82441) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:06.266+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:15:06.267+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:15:06.267+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:06.268+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:06.284+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T14:15:37.021+0700] {processor.py:161} INFO - Started process (PID=83447) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:37.022+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:15:37.022+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:15:37.022+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:37.023+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:15:37.040+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:16:07.863+0700] {processor.py:161} INFO - Started process (PID=84339) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:07.863+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:16:07.864+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:16:07.864+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:07.865+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:07.882+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:16:38.881+0700] {processor.py:161} INFO - Started process (PID=85146) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:38.882+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:16:38.883+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:16:38.883+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:38.885+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:16:38.910+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.033 seconds
+[2024-02-26T14:17:09.688+0700] {processor.py:161} INFO - Started process (PID=86259) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:17:09.689+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:17:09.689+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:17:09.689+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:17:09.690+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:17:09.708+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:39:57.352+0700] {processor.py:161} INFO - Started process (PID=9789) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:39:57.352+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:39:57.353+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:39:57.353+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:39:57.354+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:39:57.374+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T14:40:58.395+0700] {processor.py:161} INFO - Started process (PID=11562) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:40:58.397+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:40:58.398+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:40:58.397+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:40:58.399+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:40:58.419+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.027 seconds
+[2024-02-26T14:41:59.301+0700] {processor.py:161} INFO - Started process (PID=13084) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:41:59.302+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:41:59.303+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:41:59.303+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:41:59.304+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:41:59.320+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T14:43:00.295+0700] {processor.py:161} INFO - Started process (PID=14602) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:43:00.296+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:43:00.296+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:43:00.296+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:43:00.297+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:43:00.315+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:44:01.249+0700] {processor.py:161} INFO - Started process (PID=16146) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:44:01.250+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:44:01.250+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:44:01.250+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:44:01.251+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:44:01.269+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T14:45:01.894+0700] {processor.py:161} INFO - Started process (PID=17525) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:01.895+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:45:01.896+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:45:01.895+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:01.897+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:01.918+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.027 seconds
+[2024-02-26T14:45:32.913+0700] {processor.py:161} INFO - Started process (PID=17830) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:32.914+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:45:32.915+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:45:32.914+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:32.915+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:45:32.934+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T14:46:03.800+0700] {processor.py:161} INFO - Started process (PID=19136) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:46:03.801+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:46:03.802+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:46:03.802+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:46:03.803+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:46:03.823+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T14:54:13.397+0700] {processor.py:161} INFO - Started process (PID=23459) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:54:13.398+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:54:13.398+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:54:13.398+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:54:13.400+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:54:13.416+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T14:55:14.342+0700] {processor.py:161} INFO - Started process (PID=24886) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:55:14.342+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T14:55:14.343+0700] {logging_mixin.py:188} INFO - [2024-02-26T14:55:14.343+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:55:14.344+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T14:55:14.361+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:02:15.607+0700] {processor.py:161} INFO - Started process (PID=27947) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:02:15.608+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:02:15.609+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:02:15.609+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:02:15.610+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:02:15.626+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:03:16.523+0700] {processor.py:161} INFO - Started process (PID=29523) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:03:16.524+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:03:16.524+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:03:16.524+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:03:16.525+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:03:16.543+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:04:17.458+0700] {processor.py:161} INFO - Started process (PID=31079) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:04:17.459+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:04:17.460+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:04:17.459+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:04:17.460+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:04:17.480+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T15:05:18.502+0700] {processor.py:161} INFO - Started process (PID=32421) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:05:18.503+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:05:18.504+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:05:18.504+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:05:18.505+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:05:18.523+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:06:19.397+0700] {processor.py:161} INFO - Started process (PID=34039) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:06:19.398+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:06:19.399+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:06:19.399+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:06:19.400+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:06:19.417+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:07:20.246+0700] {processor.py:161} INFO - Started process (PID=35553) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:07:20.247+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:07:20.250+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:07:20.250+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:07:20.252+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:07:20.286+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.043 seconds
+[2024-02-26T15:08:00.088+0700] {processor.py:161} INFO - Started process (PID=36968) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:00.089+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:08:00.090+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:08:00.090+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:00.091+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:00.110+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T15:08:31.043+0700] {processor.py:161} INFO - Started process (PID=37920) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:31.044+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:08:31.045+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:08:31.044+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:31.046+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:08:31.067+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T15:09:01.898+0700] {processor.py:161} INFO - Started process (PID=39030) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:09:01.899+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:09:01.900+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:09:01.900+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:09:01.901+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:09:01.919+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:12:02.559+0700] {processor.py:161} INFO - Started process (PID=41221) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:02.560+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:12:02.561+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:12:02.561+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:02.562+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:02.579+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:12:48.854+0700] {processor.py:161} INFO - Started process (PID=42254) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:48.855+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:12:48.855+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:12:48.855+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:48.856+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:12:48.873+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:13:35.251+0700] {processor.py:161} INFO - Started process (PID=43286) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:13:35.253+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:13:35.253+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:13:35.253+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:13:35.254+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:13:35.271+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:14:22.157+0700] {processor.py:161} INFO - Started process (PID=44429) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:14:22.158+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:14:22.159+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:14:22.158+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:14:22.160+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:14:22.181+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.027 seconds
+[2024-02-26T15:15:23.062+0700] {processor.py:161} INFO - Started process (PID=46287) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:15:23.063+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:15:23.064+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:15:23.064+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:15:23.065+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:15:23.082+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:16:23.913+0700] {processor.py:161} INFO - Started process (PID=47929) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:16:23.914+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:16:23.914+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:16:23.914+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:16:23.915+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:16:23.933+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:17:20.497+0700] {processor.py:161} INFO - Started process (PID=49406) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:20.498+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:17:20.499+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:17:20.498+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:20.500+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:20.517+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:17:51.504+0700] {processor.py:161} INFO - Started process (PID=49850) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:51.505+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:17:51.506+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:17:51.505+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:51.507+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:17:51.528+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.028 seconds
+[2024-02-26T15:25:08.979+0700] {processor.py:161} INFO - Started process (PID=54028) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:25:08.980+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:25:08.981+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:25:08.981+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:25:08.982+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:25:08.999+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:26:10.012+0700] {processor.py:161} INFO - Started process (PID=55449) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:26:10.013+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:26:10.014+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:26:10.014+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:26:10.015+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:26:10.032+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:27:10.897+0700] {processor.py:161} INFO - Started process (PID=56938) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:27:10.898+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:27:10.898+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:27:10.898+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:27:10.899+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:27:10.916+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:37:59.796+0700] {processor.py:161} INFO - Started process (PID=60731) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:37:59.796+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:37:59.797+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:37:59.797+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:37:59.798+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:37:59.816+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T15:39:00.768+0700] {processor.py:161} INFO - Started process (PID=62167) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:39:00.769+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:39:00.770+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:39:00.769+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:39:00.771+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:39:00.788+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:40:01.641+0700] {processor.py:161} INFO - Started process (PID=63722) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:40:01.642+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:40:01.643+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:40:01.642+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:40:01.644+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:40:01.661+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:41:02.571+0700] {processor.py:161} INFO - Started process (PID=65051) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:41:02.572+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:41:02.572+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:41:02.572+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:41:02.573+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:41:02.592+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T15:42:03.538+0700] {processor.py:161} INFO - Started process (PID=66674) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:42:03.539+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:42:03.539+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:42:03.539+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:42:03.540+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:42:03.558+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:43:04.382+0700] {processor.py:161} INFO - Started process (PID=68205) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:43:04.384+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:43:04.384+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:43:04.384+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:43:04.386+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:43:04.407+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.029 seconds
+[2024-02-26T15:44:00.990+0700] {processor.py:161} INFO - Started process (PID=69606) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:00.991+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:44:00.992+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:44:00.991+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:00.992+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:01.010+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:44:38.422+0700] {processor.py:161} INFO - Started process (PID=70953) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:38.424+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:44:38.424+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:44:38.424+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:38.425+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:44:38.442+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T15:45:09.354+0700] {processor.py:161} INFO - Started process (PID=71918) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:09.355+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:45:09.355+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:45:09.355+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:09.356+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:09.375+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T15:45:54.218+0700] {processor.py:161} INFO - Started process (PID=73720) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:54.219+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T15:45:54.220+0700] {logging_mixin.py:188} INFO - [2024-02-26T15:45:54.220+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:54.221+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T15:45:54.240+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T16:03:24.258+0700] {processor.py:161} INFO - Started process (PID=4032) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:24.260+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:03:24.261+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:03:24.261+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:24.262+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:24.285+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.031 seconds
+[2024-02-26T16:03:55.790+0700] {processor.py:161} INFO - Started process (PID=4655) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:55.791+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:03:55.791+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:03:55.791+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:55.792+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:03:55.808+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.020 seconds
+[2024-02-26T16:04:27.059+0700] {processor.py:161} INFO - Started process (PID=5336) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:27.060+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:04:27.061+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:04:27.061+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:27.062+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:27.078+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:04:57.831+0700] {processor.py:161} INFO - Started process (PID=5663) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:57.831+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:04:57.832+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:04:57.832+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:57.833+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:04:57.854+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T16:05:34.653+0700] {processor.py:161} INFO - Started process (PID=6777) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:05:34.654+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:05:34.655+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:05:34.654+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:05:34.656+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:05:34.678+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.028 seconds
+[2024-02-26T16:06:06.027+0700] {processor.py:161} INFO - Started process (PID=7529) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:06.028+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:06:06.029+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:06:06.028+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:06.030+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:06.046+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:06:36.815+0700] {processor.py:161} INFO - Started process (PID=7682) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:36.816+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:06:36.816+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:06:36.816+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:36.817+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:06:36.834+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:08:09.199+0700] {processor.py:161} INFO - Started process (PID=8401) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:09.200+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:08:09.201+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:08:09.201+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:09.202+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:09.224+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.028 seconds
+[2024-02-26T16:08:40.714+0700] {processor.py:161} INFO - Started process (PID=9150) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:40.715+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:08:40.716+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:08:40.716+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:40.717+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:08:40.733+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:09:11.951+0700] {processor.py:161} INFO - Started process (PID=9874) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:11.952+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:09:11.952+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:09:11.952+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:11.953+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:11.970+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:09:42.728+0700] {processor.py:161} INFO - Started process (PID=10235) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:42.729+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:09:42.730+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:09:42.729+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:42.731+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:09:42.748+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:10:13.498+0700] {processor.py:161} INFO - Started process (PID=10855) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:13.499+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:10:13.499+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:10:13.499+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:13.500+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:13.518+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:10:44.569+0700] {processor.py:161} INFO - Started process (PID=11657) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:44.570+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:10:44.571+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:10:44.571+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:44.572+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:10:44.588+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:17:58.180+0700] {processor.py:161} INFO - Started process (PID=14419) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:17:58.181+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:17:58.182+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:17:58.182+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:17:58.183+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:17:58.203+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T16:18:28.971+0700] {processor.py:161} INFO - Started process (PID=15358) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:28.972+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:18:28.973+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:18:28.972+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:28.973+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:28.991+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:18:59.776+0700] {processor.py:161} INFO - Started process (PID=16115) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:59.777+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:18:59.778+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:18:59.778+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:59.779+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:18:59.797+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T16:19:30.656+0700] {processor.py:161} INFO - Started process (PID=16508) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:19:30.656+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:19:30.657+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:19:30.657+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:19:30.658+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:19:30.676+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T16:20:02.041+0700] {processor.py:161} INFO - Started process (PID=17271) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:02.042+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:20:02.043+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:20:02.042+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:02.043+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:02.061+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:20:33.363+0700] {processor.py:161} INFO - Started process (PID=18074) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:33.363+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:20:33.364+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:20:33.364+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:33.365+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:20:33.381+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:21:04.175+0700] {processor.py:161} INFO - Started process (PID=18515) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:04.177+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:21:04.178+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:21:04.177+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:04.178+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:04.195+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:21:34.947+0700] {processor.py:161} INFO - Started process (PID=19284) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:34.948+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:21:34.949+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:21:34.949+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:34.950+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:21:34.967+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:22:18.528+0700] {processor.py:161} INFO - Started process (PID=19998) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:18.529+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:22:18.530+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:22:18.530+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:18.531+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:18.555+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.030 seconds
+[2024-02-26T16:22:49.424+0700] {processor.py:161} INFO - Started process (PID=20965) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:49.424+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:22:49.425+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:22:49.425+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:49.426+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:22:49.444+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:23:20.894+0700] {processor.py:161} INFO - Started process (PID=21735) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:20.895+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:23:20.896+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:23:20.896+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:20.897+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:20.914+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:23:51.673+0700] {processor.py:161} INFO - Started process (PID=22086) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:51.673+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:23:51.674+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:23:51.674+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:51.675+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:23:51.691+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:24:22.420+0700] {processor.py:161} INFO - Started process (PID=22941) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:22.421+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:24:22.422+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:24:22.422+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:22.423+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:22.441+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T16:24:53.593+0700] {processor.py:161} INFO - Started process (PID=24088) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:53.594+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:24:53.595+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:24:53.594+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:53.596+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:24:53.616+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T16:25:24.410+0700] {processor.py:161} INFO - Started process (PID=24437) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:24.411+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:25:24.412+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:25:24.412+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:24.413+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:24.429+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:25:55.989+0700] {processor.py:161} INFO - Started process (PID=25519) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:55.990+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:25:55.991+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:25:55.991+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:55.992+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:25:56.010+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T16:26:27.371+0700] {processor.py:161} INFO - Started process (PID=26367) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:27.372+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:26:27.373+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:26:27.373+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:27.374+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:27.391+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:26:58.141+0700] {processor.py:161} INFO - Started process (PID=26790) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:58.142+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:26:58.142+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:26:58.142+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:58.143+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:26:58.160+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:27:29.653+0700] {processor.py:161} INFO - Started process (PID=27793) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:27:29.654+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:27:29.656+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:27:29.656+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:27:29.657+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:27:29.677+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T16:28:00.498+0700] {processor.py:161} INFO - Started process (PID=28828) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:00.499+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:28:00.500+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:28:00.500+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:00.501+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:00.520+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T16:28:31.288+0700] {processor.py:161} INFO - Started process (PID=29451) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:31.289+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:28:31.289+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:28:31.289+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:31.290+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:28:31.308+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:29:02.007+0700] {processor.py:161} INFO - Started process (PID=30363) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:02.008+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:29:02.009+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:29:02.009+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:02.010+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:02.027+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:29:32.847+0700] {processor.py:161} INFO - Started process (PID=31162) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:32.848+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:29:32.849+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:29:32.849+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:32.850+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:29:32.867+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:32:03.056+0700] {processor.py:161} INFO - Started process (PID=32421) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:03.057+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:32:03.058+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:32:03.058+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:03.059+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:03.079+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T16:32:34.581+0700] {processor.py:161} INFO - Started process (PID=33501) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:34.581+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:32:34.582+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:32:34.582+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:34.583+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:32:34.601+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:33:05.361+0700] {processor.py:161} INFO - Started process (PID=34209) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:05.362+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:33:05.363+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:33:05.363+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:05.364+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:05.381+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:33:36.177+0700] {processor.py:161} INFO - Started process (PID=34530) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:36.177+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:33:36.178+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:33:36.178+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:36.179+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:33:36.196+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.021 seconds
+[2024-02-26T16:34:07.644+0700] {processor.py:161} INFO - Started process (PID=35189) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:07.645+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:34:07.646+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:34:07.645+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:07.647+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:07.664+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:34:38.836+0700] {processor.py:161} INFO - Started process (PID=35901) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:38.838+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:34:38.838+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:34:38.838+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:38.839+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:34:38.856+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:35:09.679+0700] {processor.py:161} INFO - Started process (PID=36149) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:09.680+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:35:09.680+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:35:09.680+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:09.681+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:09.700+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.025 seconds
+[2024-02-26T16:35:40.487+0700] {processor.py:161} INFO - Started process (PID=36766) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:40.488+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:35:40.488+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:35:40.488+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:40.489+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:35:40.507+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:36:11.347+0700] {processor.py:161} INFO - Started process (PID=37773) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:11.348+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:36:11.349+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:36:11.348+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:11.349+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:11.368+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T16:36:42.131+0700] {processor.py:161} INFO - Started process (PID=38104) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:42.132+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:36:42.132+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:36:42.132+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:42.133+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:36:42.150+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:37:13.077+0700] {processor.py:161} INFO - Started process (PID=38984) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:13.078+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:37:13.079+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:37:13.079+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:13.080+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:13.099+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.024 seconds
+[2024-02-26T16:37:43.956+0700] {processor.py:161} INFO - Started process (PID=39975) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:43.957+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:37:43.958+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:37:43.958+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:43.959+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:37:43.976+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:38:14.783+0700] {processor.py:161} INFO - Started process (PID=40423) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:14.784+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:38:14.786+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:38:14.785+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:14.787+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:14.806+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.026 seconds
+[2024-02-26T16:38:45.687+0700] {processor.py:161} INFO - Started process (PID=41006) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:45.687+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:38:45.688+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:38:45.688+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:45.689+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:38:45.706+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.022 seconds
+[2024-02-26T16:39:17.102+0700] {processor.py:161} INFO - Started process (PID=41812) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:17.103+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:39:17.104+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:39:17.103+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:17.104+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:17.122+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.023 seconds
+[2024-02-26T16:39:47.942+0700] {processor.py:161} INFO - Started process (PID=42239) to work on /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:47.943+0700] {processor.py:830} INFO - Processing file /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip for tasks to queue
+[2024-02-26T16:39:47.944+0700] {logging_mixin.py:188} INFO - [2024-02-26T16:39:47.944+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:47.945+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip
+[2024-02-26T16:39:47.975+0700] {processor.py:183} INFO - Processing /home/nhut/etl-airflow/airflow/dags/pipeline/data/brazilian-ecommerce.zip took 0.036 seconds

@@ -1,0 +1,46 @@
+[2024-02-27T12:21:48.815+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:10:19.783115+00:00 [queued]>
+[2024-02-27T12:21:48.821+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:10:19.783115+00:00 [queued]>
+[2024-02-27T12:21:48.821+0700] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-02-27T12:21:48.833+0700] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): spark_transform_missed_deadline_job> on 2024-02-27 04:10:19.783115+00:00
+[2024-02-27T12:21:48.835+0700] {standard_task_runner.py:60} INFO - Started process 43773 to run task
+[2024-02-27T12:21:48.837+0700] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'missed_deadline_job_dag', 'spark_transform_missed_deadline_job', 'manual__2024-02-27T04:10:19.783115+00:00', '--job-id', '161', '--raw', '--subdir', 'DAGS_FOLDER/missed_deadlinee_dag.py', '--cfg-path', '/tmp/tmpp3sw3agn']
+[2024-02-27T12:21:48.839+0700] {standard_task_runner.py:88} INFO - Job 161: Subtask spark_transform_missed_deadline_job
+[2024-02-27T12:21:48.890+0700] {task_command.py:423} INFO - Running <TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:10:19.783115+00:00 [running]> on host MinhNhut.
+[2024-02-27T12:21:48.967+0700] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='missed_deadline_job_dag' AIRFLOW_CTX_TASK_ID='spark_transform_missed_deadline_job' AIRFLOW_CTX_EXECUTION_DATE='2024-02-27T04:10:19.783115+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-27T04:10:19.783115+00:00'
+[2024-02-27T12:21:48.968+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-27T12:21:48.969+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /home/nhut/etl-***/pipeline/spark_missed_deadline_job.py']
+[2024-02-27T12:21:48.974+0700] {subprocess.py:86} INFO - Output:
+[2024-02-27T12:21:50.545+0700] {subprocess.py:93} INFO - 24/02/27 12:21:50 WARN Utils: Your hostname, MinhNhut resolves to a loopback address: 127.0.1.1; using 172.28.89.67 instead (on interface eth0)
+[2024-02-27T12:21:50.547+0700] {subprocess.py:93} INFO - 24/02/27 12:21:50 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-02-27T12:22:00.704+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/nhut/etl-***/.venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2024-02-27T12:22:00.770+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/nhut/.ivy2/cache
+[2024-02-27T12:22:00.770+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/nhut/.ivy2/jars
+[2024-02-27T12:22:00.774+0700] {subprocess.py:93} INFO - org.apache.hadoop#hadoop-aws added as a dependency
+[2024-02-27T12:22:00.775+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-a4648790-5e44-4bbb-adce-eac0f2f650da;1.0
+[2024-02-27T12:22:00.775+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-27T12:22:00.888+0700] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-aws;3.3.2 in spark-list
+[2024-02-27T12:22:00.906+0700] {subprocess.py:93} INFO - 	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in spark-list
+[2024-02-27T12:22:00.923+0700] {subprocess.py:93} INFO - 	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+[2024-02-27T12:22:00.938+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 156ms :: artifacts dl 7ms
+[2024-02-27T12:22:00.938+0700] {subprocess.py:93} INFO - 	:: modules in use:
+[2024-02-27T12:22:00.938+0700] {subprocess.py:93} INFO - 	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from spark-list in [default]
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-aws;3.3.2 from spark-list in [default]
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T12:22:00.939+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2024-02-27T12:22:00.940+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T12:22:00.941+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-a4648790-5e44-4bbb-adce-eac0f2f650da
+[2024-02-27T12:22:00.942+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-27T12:22:00.945+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/4ms)
+[2024-02-27T12:22:01.098+0700] {subprocess.py:93} INFO - 24/02/27 12:22:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-02-27T12:22:01.242+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-02-27T12:22:01.242+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-02-27T12:22:04.493+0700] {subprocess.py:93} INFO - 24/02/27 12:22:04 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+[2024-02-27T12:23:07.645+0700] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                [Stage 3:>                                                          (0 + 1) / 1]                                                                                [Stage 4:>                  (0 + 4) / 4][Stage 5:>                  (0 + 1) / 1]                                                                                [Stage 4:>                                                          (0 + 4) / 4][Stage 4:>                  (0 + 4) / 4][Stage 6:>                  (0 + 1) / 1][Stage 4:====>              (1 + 3) / 4][Stage 6:>                  (0 + 1) / 1][Stage 4:=========>         (2 + 2) / 4][Stage 6:>                  (0 + 1) / 1]                                                                                [Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                  (0 + 1) / 1][Stage 7:>                  (0 + 5) / 5][Stage 7:>                                                          (0 + 5) / 5]                                                                                [Stage 7:>                                                          (0 + 5) / 5][Stage 7:=======================>                                   (2 + 3) / 5][Stage 7:===================================>                       (3 + 2) / 5][Stage 7:===============================================>           (4 + 1) / 5][Stage 11:>                                                         (0 + 1) / 1]
+[2024-02-27T12:23:07.645+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-27T12:23:07.676+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=missed_deadline_job_dag, task_id=spark_transform_missed_deadline_job, execution_date=20240227T041019, start_date=20240227T052148, end_date=20240227T052307
+[2024-02-27T12:23:07.706+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T12:23:07.722+0700] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,33 @@
+[2024-02-27T11:56:46.903+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:48:24.715240+00:00 [queued]>
+[2024-02-27T11:56:46.909+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:48:24.715240+00:00 [queued]>
+[2024-02-27T11:56:46.909+0700] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-27T11:56:46.920+0700] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): spark_transform_missed_deadline_job> on 2024-02-27 04:48:24.715240+00:00
+[2024-02-27T11:56:46.922+0700] {standard_task_runner.py:60} INFO - Started process 23277 to run task
+[2024-02-27T11:56:46.924+0700] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'missed_deadline_job_dag', 'spark_transform_missed_deadline_job', 'manual__2024-02-27T04:48:24.715240+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/missed_deadlinee_dag.py', '--cfg-path', '/tmp/tmp9zogq5xx']
+[2024-02-27T11:56:46.926+0700] {standard_task_runner.py:88} INFO - Job 121: Subtask spark_transform_missed_deadline_job
+[2024-02-27T11:56:46.981+0700] {task_command.py:423} INFO - Running <TaskInstance: missed_deadline_job_dag.spark_transform_missed_deadline_job manual__2024-02-27T04:48:24.715240+00:00 [running]> on host MinhNhut.
+[2024-02-27T11:56:47.064+0700] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='missed_deadline_job_dag' AIRFLOW_CTX_TASK_ID='spark_transform_missed_deadline_job' AIRFLOW_CTX_EXECUTION_DATE='2024-02-27T04:48:24.715240+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-27T04:48:24.715240+00:00'
+[2024-02-27T11:56:47.065+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-27T11:56:47.066+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/nhut/etl-***/pipeline/spark_missed_deadline_job.py']
+[2024-02-27T11:56:47.070+0700] {subprocess.py:86} INFO - Output:
+[2024-02-27T11:58:07.869+0700] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2024-02-27T11:58:07.872+0700] {process_utils.py:131} INFO - Sending 15 to group 23277. PIDs of all processes in the group: [23300, 23301, 23277]
+[2024-02-27T11:58:07.872+0700] {process_utils.py:86} INFO - Sending the signal 15 to group 23277
+[2024-02-27T11:58:07.872+0700] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-27T11:58:07.872+0700] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-02-27T11:58:07.874+0700] {process_utils.py:79} INFO - Process psutil.Process(pid=23301, status='terminated', started='11:56:46') (23301) terminated with exit code None
+[2024-02-27T11:58:07.886+0700] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nhut/etl-airflow/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/nhut/etl-airflow/.venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 203, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/nhut/etl-airflow/.venv/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/nhut/etl-airflow/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-02-27T11:58:07.888+0700] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=missed_deadline_job_dag, task_id=spark_transform_missed_deadline_job, execution_date=20240227T044824, start_date=20240227T045646, end_date=20240227T045807
+[2024-02-27T11:58:07.900+0700] {standard_task_runner.py:107} ERROR - Failed to execute job 121 for task spark_transform_missed_deadline_job (Task received SIGTERM signal; 23277)
+[2024-02-27T11:58:07.927+0700] {process_utils.py:79} INFO - Process psutil.Process(pid=23277, status='terminated', exitcode=1, started='11:56:46') (23277) terminated with exit code 1
+[2024-02-27T11:58:07.927+0700] {process_utils.py:79} INFO - Process psutil.Process(pid=23300, status='terminated', started='11:56:46') (23300) terminated with exit code None

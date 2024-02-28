@@ -1,0 +1,48 @@
+[2024-02-26T18:59:22.130+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: missed_deadline_job_dag.create_missed_deadline_table manual__2024-02-26T11:59:18.605043+00:00 [queued]>
+[2024-02-26T18:59:22.136+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: missed_deadline_job_dag.create_missed_deadline_table manual__2024-02-26T11:59:18.605043+00:00 [queued]>
+[2024-02-26T18:59:22.136+0700] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-26T18:59:22.149+0700] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): create_missed_deadline_table> on 2024-02-26 11:59:18.605043+00:00
+[2024-02-26T18:59:22.151+0700] {standard_task_runner.py:60} INFO - Started process 41507 to run task
+[2024-02-26T18:59:22.153+0700] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'missed_deadline_job_dag', 'create_missed_deadline_table', 'manual__2024-02-26T11:59:18.605043+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/missed_deadlinee_dag.py', '--cfg-path', '/tmp/tmpkcuc6unm']
+[2024-02-26T18:59:22.155+0700] {standard_task_runner.py:88} INFO - Job 96: Subtask create_missed_deadline_table
+[2024-02-26T18:59:22.209+0700] {task_command.py:423} INFO - Running <TaskInstance: missed_deadline_job_dag.create_missed_deadline_table manual__2024-02-26T11:59:18.605043+00:00 [running]> on host MinhNhut.
+[2024-02-26T18:59:22.290+0700] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='missed_deadline_job_dag' AIRFLOW_CTX_TASK_ID='create_missed_deadline_table' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T11:59:18.605043+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-26T11:59:18.605043+00:00'
+[2024-02-26T18:59:22.290+0700] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS olist_missed_deadline_tb(
+    id SERIAL,
+    order_id VARCHAR(200),
+    seller_id VARCHAR(200),
+    shipping_limit_date DATE,
+    price FLOAT,
+    freight_value FLOAT,
+    product_id VARCHAR(200),
+    product_category_name VARCHAR(200),
+    customer_id VARCHAR(200),
+    order_status VARCHAR(200),
+    order_purchase_timestamp DATE,
+    order_delivered_carrier_date DATE,
+    order_delivered_customer_date DATE,
+    order_estimated_delivery_date DATE,
+    PRIMARY KEY (id, order_id, seller_id, product_id)
+);
+[2024-02-26T18:59:22.304+0700] {base.py:83} INFO - Using connection ID 'olist_pg_conn' for task execution.
+[2024-02-26T18:59:22.319+0700] {base.py:83} INFO - Using connection ID 'olist_pg_conn' for task execution.
+[2024-02-26T18:59:22.328+0700] {sql.py:450} INFO - Running statement: CREATE TABLE IF NOT EXISTS olist_missed_deadline_tb(
+    id SERIAL,
+    order_id VARCHAR(200),
+    seller_id VARCHAR(200),
+    shipping_limit_date DATE,
+    price FLOAT,
+    freight_value FLOAT,
+    product_id VARCHAR(200),
+    product_category_name VARCHAR(200),
+    customer_id VARCHAR(200),
+    order_status VARCHAR(200),
+    order_purchase_timestamp DATE,
+    order_delivered_carrier_date DATE,
+    order_delivered_customer_date DATE,
+    order_estimated_delivery_date DATE,
+    PRIMARY KEY (id, order_id, seller_id, product_id)
+);, parameters: None
+[2024-02-26T18:59:22.345+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=missed_deadline_job_dag, task_id=create_missed_deadline_table, execution_date=20240226T115918, start_date=20240226T115922, end_date=20240226T115922
+[2024-02-26T18:59:22.365+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-26T18:59:22.388+0700] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

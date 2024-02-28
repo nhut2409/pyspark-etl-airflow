@@ -1,0 +1,65 @@
+[2024-02-26T19:01:49.242+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_ingestion_to_s3 manual__2024-02-26T11:20:29.138176+00:00 [queued]>
+[2024-02-26T19:01:49.248+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_ingestion_to_s3 manual__2024-02-26T11:20:29.138176+00:00 [queued]>
+[2024-02-26T19:01:49.249+0700] {taskinstance.py:2170} INFO - Starting attempt 6 of 5
+[2024-02-26T19:01:49.260+0700] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): spark_ingestion_to_s3> on 2024-02-26 11:20:29.138176+00:00
+[2024-02-26T19:01:49.262+0700] {standard_task_runner.py:60} INFO - Started process 43344 to run task
+[2024-02-26T19:01:49.264+0700] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'missed_deadline_job_dag', 'spark_ingestion_to_s3', 'manual__2024-02-26T11:20:29.138176+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/missed_deadlinee_dag.py', '--cfg-path', '/tmp/tmphosp8y4k']
+[2024-02-26T19:01:49.266+0700] {standard_task_runner.py:88} INFO - Job 98: Subtask spark_ingestion_to_s3
+[2024-02-26T19:01:49.316+0700] {task_command.py:423} INFO - Running <TaskInstance: missed_deadline_job_dag.spark_ingestion_to_s3 manual__2024-02-26T11:20:29.138176+00:00 [running]> on host MinhNhut.
+[2024-02-26T19:01:49.389+0700] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='missed_deadline_job_dag' AIRFLOW_CTX_TASK_ID='spark_ingestion_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T11:20:29.138176+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-26T11:20:29.138176+00:00'
+[2024-02-26T19:01:49.390+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-26T19:01:49.390+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /home/nhut/etl-***/pipeline/spark_ingestion_to_s3.py']
+[2024-02-26T19:01:49.395+0700] {subprocess.py:86} INFO - Output:
+[2024-02-26T19:01:50.947+0700] {subprocess.py:93} INFO - 24/02/26 19:01:50 WARN Utils: Your hostname, MinhNhut resolves to a loopback address: 127.0.1.1; using 172.28.89.67 instead (on interface eth0)
+[2024-02-26T19:01:50.952+0700] {subprocess.py:93} INFO - 24/02/26 19:01:50 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-02-26T19:02:01.132+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/nhut/etl-***/.venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2024-02-26T19:02:01.218+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/nhut/.ivy2/cache
+[2024-02-26T19:02:01.218+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/nhut/.ivy2/jars
+[2024-02-26T19:02:01.223+0700] {subprocess.py:93} INFO - org.apache.hadoop#hadoop-aws added as a dependency
+[2024-02-26T19:02:01.224+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-7331c30d-4989-4cbc-9e52-127ea0687a64;1.0
+[2024-02-26T19:02:01.225+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-26T19:02:01.348+0700] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-aws;3.3.2 in spark-list
+[2024-02-26T19:02:01.369+0700] {subprocess.py:93} INFO - 	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in spark-list
+[2024-02-26T19:02:01.391+0700] {subprocess.py:93} INFO - 	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+[2024-02-26T19:02:01.407+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 177ms :: artifacts dl 6ms
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	:: modules in use:
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from spark-list in [default]
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-aws;3.3.2 from spark-list in [default]
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-26T19:02:01.408+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2024-02-26T19:02:01.409+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2024-02-26T19:02:01.409+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-26T19:02:01.409+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2024-02-26T19:02:01.409+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-26T19:02:01.410+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-7331c30d-4989-4cbc-9e52-127ea0687a64
+[2024-02-26T19:02:01.411+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-26T19:02:01.415+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/5ms)
+[2024-02-26T19:02:01.586+0700] {subprocess.py:93} INFO - 24/02/26 19:02:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-02-26T19:02:01.730+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-02-26T19:02:01.730+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-02-26T19:02:02.514+0700] {subprocess.py:93} INFO - 24/02/26 19:02:02 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2024-02-26T19:02:08.876+0700] {subprocess.py:93} INFO - 24/02/26 19:02:08 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+[2024-02-26T19:04:42.522+0700] {subprocess.py:93} INFO - [Stage 1:>                                                          (0 + 4) / 4][Stage 1:==============>                                            (1 + 3) / 4]                                                                                [Stage 3:>                                                          (0 + 2) / 2]                                                                                [Stage 5:>                                                          (0 + 5) / 5][Stage 5:===========>                                               (1 + 4) / 5][Stage 5:===================================>                       (3 + 2) / 5]                                                                                [Stage 7:>                                                        (0 + 12) / 12]24/02/26 19:04:42 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:42.522+0700] {subprocess.py:93} INFO - Scaling row group sizes to 95.00% for 8 writers
+[2024-02-26T19:04:42.523+0700] {subprocess.py:93} INFO - 24/02/26 19:04:42 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:42.524+0700] {subprocess.py:93} INFO - Scaling row group sizes to 84.44% for 9 writers
+[2024-02-26T19:04:42.533+0700] {subprocess.py:93} INFO - 24/02/26 19:04:42 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:42.534+0700] {subprocess.py:93} INFO - Scaling row group sizes to 76.00% for 10 writers
+[2024-02-26T19:04:42.536+0700] {subprocess.py:93} INFO - 24/02/26 19:04:42 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:42.536+0700] {subprocess.py:93} INFO - Scaling row group sizes to 69.09% for 11 writers
+[2024-02-26T19:04:42.541+0700] {subprocess.py:93} INFO - 24/02/26 19:04:42 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:42.542+0700] {subprocess.py:93} INFO - Scaling row group sizes to 63.33% for 12 writers
+[2024-02-26T19:04:44.805+0700] {subprocess.py:93} INFO - 24/02/26 19:04:44 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:44.805+0700] {subprocess.py:93} INFO - Scaling row group sizes to 69.09% for 11 writers
+[2024-02-26T19:04:46.142+0700] {subprocess.py:93} INFO - 24/02/26 19:04:46 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:46.142+0700] {subprocess.py:93} INFO - Scaling row group sizes to 76.00% for 10 writers
+[2024-02-26T19:04:46.233+0700] {subprocess.py:93} INFO - 24/02/26 19:04:46 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:46.234+0700] {subprocess.py:93} INFO - Scaling row group sizes to 84.44% for 9 writers
+[2024-02-26T19:04:46.261+0700] {subprocess.py:93} INFO - 24/02/26 19:04:46 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
+[2024-02-26T19:04:46.261+0700] {subprocess.py:93} INFO - Scaling row group sizes to 95.00% for 8 writers
+[2024-02-26T19:09:30.616+0700] {subprocess.py:93} INFO - [Stage 7:====>                                                    (1 + 11) / 12][Stage 7:==============>                                           (3 + 9) / 12][Stage 7:===================>                                      (4 + 8) / 12][Stage 7:=============================>                            (6 + 6) / 12][Stage 7:======================================>                   (8 + 4) / 12][Stage 7:====================================================>    (11 + 1) / 12]                                                                                [Stage 9:>                                                          (0 + 3) / 3][Stage 9:===================>                                       (1 + 2) / 3]                                                                                [Stage 11:>                                                         (0 + 1) / 1]                                                                                [Stage 13:>                                                         (0 + 1) / 1]                                                                                [Stage 15:>                                                         (0 + 4) / 4][Stage 15:==============>                                           (1 + 3) / 4][Stage 15:===========================================>              (3 + 1) / 4]                                                                                [Stage 17:>                                                         (0 + 1) / 1]
+[2024-02-26T19:09:30.617+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-26T19:09:30.661+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=missed_deadline_job_dag, task_id=spark_ingestion_to_s3, execution_date=20240226T112029, start_date=20240226T120149, end_date=20240226T120930
+[2024-02-26T19:09:30.688+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-26T19:09:30.706+0700] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

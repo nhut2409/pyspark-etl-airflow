@@ -1,0 +1,48 @@
+[2024-02-27T15:29:20.783+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_load_data_to_postgresql manual__2024-02-27T07:38:24.396245+00:00 [queued]>
+[2024-02-27T15:29:20.791+0700] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: missed_deadline_job_dag.spark_load_data_to_postgresql manual__2024-02-27T07:38:24.396245+00:00 [queued]>
+[2024-02-27T15:29:20.791+0700] {taskinstance.py:2170} INFO - Starting attempt 4 of 4
+[2024-02-27T15:29:20.803+0700] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): spark_load_data_to_postgresql> on 2024-02-27 07:38:24.396245+00:00
+[2024-02-27T15:29:20.805+0700] {standard_task_runner.py:60} INFO - Started process 105840 to run task
+[2024-02-27T15:29:20.807+0700] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'missed_deadline_job_dag', 'spark_load_data_to_postgresql', 'manual__2024-02-27T07:38:24.396245+00:00', '--job-id', '177', '--raw', '--subdir', 'DAGS_FOLDER/missed_deadlinee_dag.py', '--cfg-path', '/tmp/tmp2fy4t939']
+[2024-02-27T15:29:20.809+0700] {standard_task_runner.py:88} INFO - Job 177: Subtask spark_load_data_to_postgresql
+[2024-02-27T15:29:20.861+0700] {task_command.py:423} INFO - Running <TaskInstance: missed_deadline_job_dag.spark_load_data_to_postgresql manual__2024-02-27T07:38:24.396245+00:00 [running]> on host MinhNhut.
+[2024-02-27T15:29:20.942+0700] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='missed_deadline_job_dag' AIRFLOW_CTX_TASK_ID='spark_load_data_to_postgresql' AIRFLOW_CTX_EXECUTION_DATE='2024-02-27T07:38:24.396245+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-27T07:38:24.396245+00:00'
+[2024-02-27T15:29:20.943+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-27T15:29:20.944+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /home/nhut/etl-***/pipeline/spark_load_data_to_posgres.py']
+[2024-02-27T15:29:20.949+0700] {subprocess.py:86} INFO - Output:
+[2024-02-27T15:29:22.493+0700] {subprocess.py:93} INFO - 24/02/27 15:29:22 WARN Utils: Your hostname, MinhNhut resolves to a loopback address: 127.0.1.1; using 172.28.89.67 instead (on interface eth0)
+[2024-02-27T15:29:22.495+0700] {subprocess.py:93} INFO - 24/02/27 15:29:22 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-02-27T15:29:32.667+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/nhut/etl-***/.venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2024-02-27T15:29:32.744+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/nhut/.ivy2/cache
+[2024-02-27T15:29:32.745+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/nhut/.ivy2/jars
+[2024-02-27T15:29:32.749+0700] {subprocess.py:93} INFO - org.apache.hadoop#hadoop-aws added as a dependency
+[2024-02-27T15:29:32.750+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-fc7ced19-03f2-4196-a55a-8cddaced73d0;1.0
+[2024-02-27T15:29:32.750+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-27T15:29:32.884+0700] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-aws;3.3.2 in spark-list
+[2024-02-27T15:29:32.906+0700] {subprocess.py:93} INFO - 	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in spark-list
+[2024-02-27T15:29:32.928+0700] {subprocess.py:93} INFO - 	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+[2024-02-27T15:29:32.946+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 188ms :: artifacts dl 8ms
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	:: modules in use:
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from spark-list in [default]
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-aws;3.3.2 from spark-list in [default]
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2024-02-27T15:29:32.947+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T15:29:32.948+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2024-02-27T15:29:32.948+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-02-27T15:29:32.950+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-fc7ced19-03f2-4196-a55a-8cddaced73d0
+[2024-02-27T15:29:32.950+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2024-02-27T15:29:32.956+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/6ms)
+[2024-02-27T15:29:33.137+0700] {subprocess.py:93} INFO - 24/02/27 15:29:33 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-02-27T15:29:33.294+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-02-27T15:29:33.294+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-02-27T15:29:34.140+0700] {subprocess.py:93} INFO - 24/02/27 15:29:34 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2024-02-27T15:29:36.524+0700] {subprocess.py:93} INFO - 24/02/27 15:29:36 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+[2024-02-27T15:29:43.506+0700] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                24/02/27 15:29:43 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2024-02-27T15:29:49.949+0700] {subprocess.py:93} INFO - [Stage 1:>                                                          (0 + 1) / 1]                                                                                DataFrame[order_id: string, seller_id: string, shipping_limit_date: date, price: float, freight_value: float, product_id: string, product_category_name: string, customer_id: string, order_status: string, order_purchase_timestamp: date, order_delivered_carrier_date: date, order_delivered_customer_date: date, order_estimated_delivery_date: date]
+[2024-02-27T15:29:50.425+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-27T15:29:50.458+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=missed_deadline_job_dag, task_id=spark_load_data_to_postgresql, execution_date=20240227T073824, start_date=20240227T082920, end_date=20240227T082950
+[2024-02-27T15:29:50.473+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T15:29:50.489+0700] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
